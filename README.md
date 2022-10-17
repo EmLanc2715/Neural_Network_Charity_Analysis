@@ -10,21 +10,21 @@ The purpose of this project was to use neural network models to help the Alphabe
 
 1. What variable(s) are considered the target(s) for the model?
 
-The target variable for the model was the "IS_SUCCESSFUL" column. The column illustrates if a charity donation was used effectively.
+  The target variable for the model was the "IS_SUCCESSFUL" column. The column illustrates if a charity donation was used effectively.
 
 2. What variable(s) are considered to be the features of the model?
 
-The features of the model were the columns: APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME-AMT, SPECIAL_CONSIDERATIONS, and ASK_AMT.
+  The features of the model were the columns: APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME-AMT, SPECIAL_CONSIDERATIONS, and      ASK_AMT.
 
 3. What variable(s) are neither targets nor features, and should be removed from the input data?
 
-EIN and NAME variables were not feautres or targets, and were consequentally removed from the inout data.
+  EIN and NAME variables were not feautres or targets, and were consequentally removed from the inout data.
 
 ### Compiling, Training, and Evaluating the Model
 
 1. How many neurons, layers and activation functions did you select for your neural network model, and why?
 
-I created 3 separate neural network models, each with varying neurons, activation fucntions and layers.
+  I created 3 separate neural network models, each with varying neurons, activation fucntions and layers.
 
 #### Model 1
 
@@ -40,15 +40,15 @@ I created 3 separate neural network models, each with varying neurons, activatio
 
 2. Were you able to achieve the target model performance?
 
-No, while my models were very close to 75% accuracy, I did not achieve this score.
+  No, while my models were very close to 75% accuracy, I did not achieve this score.
 
-Model1 accuracy_score = 73%
-Model2 accuracy_score = 73%
-Model3 accuracy_score = 73%
+  Model1 accuracy_score = 73%
+  Model2 accuracy_score = 73%
+  Model3 accuracy_score = 73%
 
 3. What steps would you take to increase model performance?
 
-The model performance should increase if another hidden layer is added to the model.
+  The model performance should increase if another hidden layer is added to the model.
 
 ## Summary
 
